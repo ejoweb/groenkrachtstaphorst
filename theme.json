@@ -1,0 +1,328 @@
+{
+	"version": 2,
+	"settings": {
+		"useRootPaddingAwareAlignments": true,
+		"color": {
+			"defaultGradients": false,
+			"defaultPalette": false,
+			"background": true,
+			"text": true,
+			"link": true,
+			"palette": [
+				{ "name": "Wit 1", 	    "slug": "wit-1", 	  "color": "#F7F6F6" },
+				{ "name": "Grijs 1", 	"slug": "grijs-1",    "color": "#767E6C" },
+				{ "name": "Zwart 1", 	"slug": "zwart-1",    "color": "#222222" },
+				{ "name": "Groen 1", 	"slug": "groen-1",	  "color": "#226307" },
+				{ "name": "Groen 2", 	"slug": "groen-2",    "color": "#356912" },
+				{ "name": "Groen 3", 	"slug": "groen-3",    "color": "#81BC40" },
+				{ "name": "Groen 4", 	"slug": "groen-4",    "color": "#A6DB59" },
+				{ "name": "Bruin 1", 	"slug": "bruin-1",    "color": "#71392B" },
+				{ "name": "Bruin 2", 	"slug": "bruin-2",    "color": "#603013" },
+				{ "name": "Bruin 3", 	"slug": "bruin-3",    "color": "#974A28" }
+			],
+			"custom": true,
+			"gradients": [],
+			"duotone": [
+				{ "name": "Black and white", "slug": "black-and-white", "colors": [ "#000000", "#ffffff" ] }
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"name": "Raleway",
+					"slug": "raleway",
+					"fontFamily": "Raleway,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Raleway",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/raleway/raleway-v37-latin-700.woff2" ]
+						},
+						{
+							"fontFamily": "Lexend",
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/raleway/raleway-v37-latin-700italic.woff2" ]
+						},
+						{
+							"fontFamily": "Raleway",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/raleway/raleway-v37-latin-700.woff2" ]
+						},
+						{
+							"fontFamily": "Lexend",
+							"fontWeight": "700",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/raleway/raleway-v37-latin-700italic.woff2" ]
+						}
+					]
+				},
+				{
+					"fontFamily": "Lexend, -apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+					"slug": "lexend",
+					"name": "Lexend",
+					"fontFace": [
+						{
+							"fontFamily": "Lexend",
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/lexend/lexend-v26-latin-300.woff2" ]
+						}
+					]
+				}
+			],
+			"fontSizes": [
+				{ "name": "Small",    "slug": "small",    "size": "clamp(0.875rem, 3vw, 1.125rem)" },
+				{ "name": "Medium",   "slug": "medium",   "size": "clamp(1rem, 3vw, 1.25rem)" },
+				{ "name": "Large",    "slug": "large",    "size": "clamp(1.333rem, 4vw, 1.75rem)" },
+				{ "name": "X-large",  "slug": "x-large",  "size": "clamp(2rem, 4vw, 2.5rem)" },
+				{ "name": "XX Large", "slug": "xx-large", "size": "clamp(2.5rem, 6vw, 3.5rem)" }
+			],
+			"customFontSize": false,
+            "lineHeight": true,
+            "fontStyle": true,
+			"fontWeight": true,
+			"dropCap": false,
+            "letterSpacing": false,
+            "textDecoration": true,
+            "textTransform": false
+		},
+		"border": {
+			"color": true, 
+			"radius": true, 
+			"style": true, 
+			"width": true
+		},
+		"layout": {
+			"contentSize": "40rem",
+			"wideSize": "56rem"
+		},
+		"spacing": {
+			"blockGap": true,
+			"margin": true,
+			"padding": true,
+			"spacingSizes": [
+				{ "name": "1", "slug": "30", "size": "clamp(0.5rem, 4vw, 0.75rem)" },
+				{ "name": "2", "slug": "40", "size": "clamp(1rem, 4vw, 1.5rem)" },
+				{ "name": "3", "slug": "50", "size": "clamp(1.75rem, 4vw, 2.25rem)" },
+				{ "name": "4", "slug": "60", "size": "clamp(2.75rem, 4vw, 3.25rem)" },
+				{ "name": "5", "slug": "70", "size": "clamp(3.75rem, 4vw, 4.5rem)" }
+			],
+			"units": [ "%",	"px", "em", "rem", "vh", "vw" ]
+		},
+		"custom": {
+			"typography": {
+				"line-height": {
+					"small": 1.1,
+					"normal": 1.5
+				}
+			},
+			"borderRadius": {
+				"small": "6px",
+				"medium": "10px"
+			},
+			"spacing": {
+				"bannerHeight": "clamp(12rem, 20vw, 16rem)"
+			},
+			"layout": {
+				"fullSize": "72rem"
+			}
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "var(--wp--preset--color--wit-1)",
+			"text": 	  "var(--wp--preset--color--zwart-1)"
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--lexend)",
+			"fontWeight": "300",
+			"lineHeight": "var(--wp--custom--typography--line-height--normal)",
+			"fontSize":   "var(--wp--preset--font-size--medium)"
+		},
+		"spacing": {
+			"blockGap": "var(--wp--preset--spacing--50)",
+			"padding": {
+				"top": "var(--wp--preset--spacing--50)",
+				"right": "var(--wp--preset--spacing--60)",
+				"bottom": "var(--wp--preset--spacing--50)",
+				"left": "var(--wp--preset--spacing--60)"
+			}
+		},
+		"elements": {
+			"link": {
+				"color": {
+					"text": "currentColor"
+				},
+				"typography": {
+					"textDecoration": "underline"
+				},
+				":hover": {
+					"typography": {
+						"textDecoration": "underline"
+					}
+				}
+			},
+			"button": {
+				"border": {
+					"radius": "var(--wp--custom--border-radius--small)"
+				},
+				"color": {
+					"background": "var(--wp--preset--color--groen-2)",
+					"text": "var(--wp--preset--color--wit-1)"
+				},
+				":hover": {
+					"color": {
+						"background": "var(--wp--preset--color--groen-1)",
+						"text": "var(--wp--preset--color--wit-1)"
+					}
+				},
+				":focus": {
+					"color": {
+						"background": "var(--wp--preset--color--groen-1)",
+						"text": "var(--wp--preset--color--wit-1)"
+					}
+				},
+				":active": {
+					"color": {
+						"background": "var(--wp--preset--color--groen-1)",
+						"text": "var(--wp--preset--color--wit-1)"
+					}
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--raleway)",
+					"fontWeight": "bold",
+					"lineHeight": "var(--wp--custom--typography--line-height--small)"
+				},
+				"color": {
+				}
+			},
+			"h1": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--xx-large)"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--x-large)"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--large)"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--large)"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--large)"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--large)"
+				}
+			}
+		},
+		"blocks": {
+			"core/site-title": {
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
+				}				
+			},
+			"core/post-title": {
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--zwart-1)"
+						},
+						"typography": {
+							"textDecoration": "none"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						}
+					}
+				}
+			},
+			"core/column": {
+				"border": {
+					"radius": "var(--wp--custom--border-radius--medium)"
+				}
+			},
+			"core/post-featured-image": {
+				"border": {
+					"radius": "var(--wp--custom--border-radius--medium)"
+				}
+			},
+			"core/image": {
+				"border": {
+					"radius": "var(--wp--custom--border-radius--medium)"
+				}
+			},
+			"core/cover": {
+				"border": {
+					"radius": "var(--wp--custom--border-radius--medium)"
+				}
+			},
+			"core/separator": {
+				"color": {
+					"background": "var(--wp--preset--color--grijs-1)"
+				},
+				"spacing": {
+					"margin": {
+						"top": "var(--wp--preset--spacing--60)",
+						"bottom": "var(--wp--preset--spacing--60)"
+					}
+				}
+			}
+		}
+	},
+	"customTemplates": [
+		{
+			"name": "404",
+			"postTypes": [
+				"page"
+			],
+			"title": "404"
+		},
+		{
+			"name": "landingspage",
+			"postTypes": [
+				"page"
+			],
+			"title": "Landingspagina"
+		}
+	],
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header",
+			"title": "Header"
+		},
+		{
+			"area": "footer",
+			"name": "footer",
+			"title": "Footer"
+		}
+	]
+}

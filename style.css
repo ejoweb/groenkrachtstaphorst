@@ -428,28 +428,6 @@ footer .wp-block-image.site-logo {
 /* ----------------------------- CUSTOM CLASSES ----------------------------- */
 
 /**
- * Activities
- */
-
-.wp-block-group.agenda-overview > * {
-	margin-bottom: 0;
-}
-
-/**
- * Agenda Table block
- */
-.wp-block-table.agenda td:first-child {
-	max-width: 180px;
-}
-
-.wp-block-table.agenda td {
-	padding-top: var(--wp--preset--spacing--50);
-	padding-bottom: var(--wp--preset--spacing--50);
-}
-
-
-
-/**
  * Contact form 7
  */
 

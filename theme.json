@@ -352,6 +352,9 @@
 				}
 			},
 			"h1": {
+				"color": {
+					"text": "var(--wp--preset--color--bruin-3)"
+				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--xx-large)"
 				}

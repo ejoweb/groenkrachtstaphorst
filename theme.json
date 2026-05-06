@@ -212,9 +212,18 @@
 							"fontFamily": "Lexend",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
-							"fontWeight": "300",
+							"fontWeight": "400",
 							"src": [
 								"file:./assets/fonts/lexend/lexend-v26-latin-300.woff2"
+							]
+						},
+						{
+							"fontFamily": "Lexend",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/lexend/lexend-v26-latin-600.woff2"
 							]
 						}
 					],

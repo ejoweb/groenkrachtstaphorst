@@ -415,9 +415,7 @@ main > .wp-block-post-title:nth-child(2) {
 /**
  * Site footer 
  */
-footer {
-	margin-top: var(--wp--preset--spacing--70);	
-}
+footer {}
 
 footer .wp-block-image.site-logo {
 	/*margin-top: calc( var(--wp--preset--spacing--50) * -2 );*/

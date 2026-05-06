@@ -27,6 +27,9 @@ add_action( 'after_setup_theme', function() {
 	// Limit excerpt length
 	add_filter( 'excerpt_length', function($length) { return 32; } );
 
+	// Edit 'protected' prefix on titles
+	add_filter( 'protected_title_format', 'gks_edit_protected_title' );
+
 	// Use default featured image on special pages
 	// add_filter( 'post_thumbnail_html', 'gks_show_default_image_on_special_pages', 21, 5 );
 	
@@ -114,6 +117,15 @@ function gks_wpcf7_add_submit_button_class($output, $tag, $atts, $m) {
     }
 
     return $output;
+}
+
+/**
+ * Change prefix on protected posts
+ */
+function gks_edit_protected_title( $title ) {
+    // Return only the title portion as defined by %s, not the additional 
+    // 'Protected: ' as added in core
+    return "🔐 %s";
 }
 
 

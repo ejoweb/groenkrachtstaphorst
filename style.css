@@ -172,6 +172,13 @@ html {
 	border: 0;
 }
 
+/* File block */
+.wp-block-file a:only-child::before {
+    content: '↓'; /* other icon: ⭳ */
+    margin-right: 4px;
+    text-decoration: none;
+}
+
 /* -------------------------------- CONTEXT -------------------------------- */
 
 
